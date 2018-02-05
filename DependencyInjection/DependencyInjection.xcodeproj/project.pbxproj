@@ -10,6 +10,7 @@
 		0AFA5C351596C3D18DD83A7A /* Pods_DependencyInjection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB8079C5B8329836ADC2646 /* Pods_DependencyInjection.framework */; };
 		F322B0BC202833B00052BE1E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322B0BB202833B00052BE1E /* Country.swift */; };
 		F322B0BE2028357E0052BE1E /* CountryInfoAPIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322B0BD2028357E0052BE1E /* CountryInfoAPIConfiguration.swift */; };
+		F322B0C0202838030052BE1E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322B0BF202838030052BE1E /* Networking.swift */; };
 		F3DBFEEC202051D20063BB28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFEEB202051D20063BB28 /* AppDelegate.swift */; };
 		F3DBFEEE202051D20063BB28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFEED202051D20063BB28 /* ViewController.swift */; };
 		F3DBFEF1202051D20063BB28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DBFEEF202051D20063BB28 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		E95DA8DED46663E12A9D8570 /* Pods-DependencyInjection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DependencyInjection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DependencyInjection/Pods-DependencyInjection.debug.xcconfig"; sourceTree = "<group>"; };
 		F322B0BB202833B00052BE1E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		F322B0BD2028357E0052BE1E /* CountryInfoAPIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoAPIConfiguration.swift; sourceTree = "<group>"; };
+		F322B0BF202838030052BE1E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		F3DBFEE8202051D20063BB28 /* DependencyInjection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependencyInjection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DBFEEB202051D20063BB28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DBFEED202051D20063BB28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				F3DBFEF7202051D20063BB28 /* Info.plist */,
 				F322B0BB202833B00052BE1E /* Country.swift */,
 				F322B0BD2028357E0052BE1E /* CountryInfoAPIConfiguration.swift */,
+				F322B0BF202838030052BE1E /* Networking.swift */,
 			);
 			path = DependencyInjection;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DBFEEE202051D20063BB28 /* ViewController.swift in Sources */,
+				F322B0C0202838030052BE1E /* Networking.swift in Sources */,
 				F322B0BC202833B00052BE1E /* Country.swift in Sources */,
 				F322B0BE2028357E0052BE1E /* CountryInfoAPIConfiguration.swift in Sources */,
 				F3DBFEEC202051D20063BB28 /* AppDelegate.swift in Sources */,
