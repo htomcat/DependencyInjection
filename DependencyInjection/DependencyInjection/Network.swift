@@ -7,8 +7,16 @@
 //
 
 import Foundation
+import Alamofire
 
 struct Network: Networking {
-    func request(response: (Data?) -> ()) {
+    let networking: Networking
+
+    func request(response: @escaping (Data?) -> ()) {
+        Alamofire.request(CountryInfoAPIConfiguration.url,
+                          method: .get,
+                          parameters: CountryInfoAPIConfiguration.parameters).response { data in
+                            response(data.data)
+        }
     }
 }
