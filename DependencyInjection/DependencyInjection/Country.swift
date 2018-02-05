@@ -2,7 +2,7 @@
 //  Country.swift
 //  DependencyInjection
 //
-//  Created by 浜田　智史 on 2018/02/05.
+//  Created by htomcat on 2018/02/05.
 //  Copyright © 2018年 htomcat. All rights reserved.
 //
 
