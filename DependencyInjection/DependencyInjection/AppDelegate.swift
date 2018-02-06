@@ -7,15 +7,30 @@
 //
 
 import UIKit
+import Swinject
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let container: Container = {
+        let container = Container()
+        container.register(Networking.self) { _ in Network() }
+        container.register(Fetcher.self) { r in
+            Fetcher(networking: r.resolve(Networking.self)!)
+        }
+        container.register(ViewController.self) { r in
+            let controller = ViewController()
+            controller.fetcher = r.resolve(Fetcher.self)
+            return controller
+        }
+        return container
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = container.resolve(ViewController.self)
+        window?.makeKeyAndVisible()
         return true
     }
 
