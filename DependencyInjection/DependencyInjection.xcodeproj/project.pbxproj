@@ -12,6 +12,7 @@
 		F322B0BE2028357E0052BE1E /* CountryInfoAPIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322B0BD2028357E0052BE1E /* CountryInfoAPIConfiguration.swift */; };
 		F322B0C0202838030052BE1E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322B0BF202838030052BE1E /* Networking.swift */; };
 		F322B0C22028390D0052BE1E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322B0C12028390D0052BE1E /* Network.swift */; };
+		F34FC66120284652009A4D96 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FC66020284652009A4D96 /* Fetcher.swift */; };
 		F3DBFEEC202051D20063BB28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFEEB202051D20063BB28 /* AppDelegate.swift */; };
 		F3DBFEEE202051D20063BB28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBFEED202051D20063BB28 /* ViewController.swift */; };
 		F3DBFEF1202051D20063BB28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DBFEEF202051D20063BB28 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		F322B0BD2028357E0052BE1E /* CountryInfoAPIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoAPIConfiguration.swift; sourceTree = "<group>"; };
 		F322B0BF202838030052BE1E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		F322B0C12028390D0052BE1E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F34FC66020284652009A4D96 /* Fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 		F3DBFEE8202051D20063BB28 /* DependencyInjection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependencyInjection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DBFEEB202051D20063BB28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DBFEED202051D20063BB28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				F322B0BD2028357E0052BE1E /* CountryInfoAPIConfiguration.swift */,
 				F322B0BF202838030052BE1E /* Networking.swift */,
 				F322B0C12028390D0052BE1E /* Network.swift */,
+				F34FC66020284652009A4D96 /* Fetcher.swift */,
 			);
 			path = DependencyInjection;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34FC66120284652009A4D96 /* Fetcher.swift in Sources */,
 				F3DBFEEE202051D20063BB28 /* ViewController.swift in Sources */,
 				F322B0C0202838030052BE1E /* Networking.swift in Sources */,
 				F322B0C22028390D0052BE1E /* Network.swift in Sources */,
