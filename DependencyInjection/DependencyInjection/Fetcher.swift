@@ -12,14 +12,14 @@ import UIKit
 struct Fetcher {
     let networking: Networking
     
-    func fetch(response: @escaping (UIImage?) -> ()) {
+    func fetch(response: @escaping ([Country]?) -> ()) {
         networking.request {
             guard let data = $0 else {
                 response(nil)
                 return
             }
-            let image = UIImage(data: data)
-            response(image)
+            let testData = Country(name: "Japan", capital: "Tokyo", color: .white)
+            response([testData])
         }
     }
 }

@@ -10,8 +10,6 @@ import Foundation
 import Alamofire
 
 struct Network: Networking {
-    let networking: Networking
-
     func request(response: @escaping (Data?) -> ()) {
         Alamofire.request(CountryInfoAPIConfiguration.url,
                           method: .get,
